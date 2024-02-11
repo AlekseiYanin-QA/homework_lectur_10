@@ -1,0 +1,2 @@
+# homework_lectur_10
+homework_lectur_10
