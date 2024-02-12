@@ -55,7 +55,7 @@ class RegistrationPage:
     def submit(self):
         browser.element('#submit').should(be.clickable).click()
 
-    def should_have_registered_user_with(self, first_name, last_name, email, gender, mobile, date_of_birth, \
+    def should_have_registered_user_with(self, first_name, last_name, email, gender, mobile, date_of_birth,\
                                          subjects, hobbies, picture, current_address, state_city):
         browser.element(".table").all("td").even.should(have.texts(
             f"{first_name} {last_name}",
